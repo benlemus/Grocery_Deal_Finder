@@ -1,0 +1,52 @@
+Project Proposal
+
+Stack
+   The stack I plan to use is:
+      JavaScript (Front-end)
+      Python (Back-end)
+      SQL (Database)
+      WTForms
+
+Focus
+   I am planning for this application to be pretty even with the front-end UI and the back-end. I want it to look and feel good when interacting with the UI but I am also planning for the application to have a pretty heavy use of databases.
+
+Type
+   The type of application this project will be is a website for now as the main focus. But I am interested in making it into a mobile app in the future.
+
+Goal
+   The goal of this application is to help people save money on groceries by easily delivering deals by merging all deals around them with their shopping lists.
+
+Users
+   The demographic of my application is mainly young adults(18-30 years old) that might be a little tighter on money or anyone that is keen on saving a little extra money.
+
+Data
+   The data I plan on using is from API’s that will consist of weekly deals from stores. From each store, I will hopefully get data that contains product names and or descriptions, original prices, new prices and length of sale(date when sale starts/ends). I plan on using direct API’s and possibly web scraping.
+
+1. What does your database schema look like?
+      (Full DB Schema In Folder)
+      My database schema has 7 tables that all use a one to one relationship.
+
+2. What kind of issues might you run into with your API?
+      The issues I can run into are dealing with messy data since I will be scraping the web and also restrictions/potential prerequisites for the actual Amazon API.
+
+3. Is there any sensitive information you need to secure?
+      Yes, the information I need to secure is the API keys and users passwords.
+
+4. What functionality will your app include?
+      The functionality will be:
+        - Users can login/uploaded grocery list
+        - Makes requests using API’s (direct or web scraping) to find weekly deals at stores near user
+        - Compares users grocery list with deals
+        - Takes best average of savings and shows the best place to shop
+        - Shows all deals from everywhere
+        - User can auto generate new list of deal items
+        - Stores user data, store data and product data in database
+
+5. What will the user flow look like?
+      (Full User Flow In Folder)
+      The user flow will consist of a user logging in, uploading a shopping list, finding stores near the user, seeing which store will save the most money.
+
+6. What features make your site more than a CRUD app? What are your stretch goals?
+      The features that make my app more than a CRUD app is comparing users' grocery list with deals list, averaging the savings and potentially saving people money.
+
+      My stretch goals are to grow the database of products, communicate with more stores to gather data and save people a lot of money.
